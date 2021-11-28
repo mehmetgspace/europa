@@ -1,0 +1,71 @@
+html, body, div {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "JetBrains Mono", monospace;
+  padding: 30px;
+}
+
+input,
+button {
+  font-family: "JetBrains Mono", monospace;
+}
+
+.europa-container {
+  max-width: 500px;
+}
+
+.europa-group {
+  position: relative;
+  margin-bottom: 30px;
+}
+.europa-group__label {
+  display: block;
+  margin-bottom: 10px;
+}
+.europa-group__message {
+  color: #EE5A24;
+  font-size: 13px;
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  visibility: hidden;
+}
+.europa-group__message--error {
+  visibility: visible;
+}
+.europa-group--error .europa-input {
+  border-color: #EE5A24;
+}
+.europa-group--error .europa-group__message {
+  visibility: visible;
+}
+
+.europa-input {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 16px;
+  border: 1px solid #eee;
+  padding: 10px;
+  width: 100%;
+}
+.europa-input:focus {
+  outline: 0;
+}
+
+.europa-button {
+  cursor: pointer;
+}
+.europa-button--primary {
+  background-color: #0652DD;
+  color: #FFFFFF;
+  border: 0;
+  padding: 10px;
+}
+
+/*# sourceMappingURL=europa.css.map */

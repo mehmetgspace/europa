@@ -1,0 +1,11 @@
+.europa-button {
+  cursor: pointer;
+
+  &--primary {
+    background-color: $color-blue;
+    color: $color-white;
+    border: 0;
+    padding: 10px;
+  }
+
+}

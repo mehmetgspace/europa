@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>europa</title>
+    <link rel="stylesheet" href="scss/europa.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <h1>europa</h1>
+
+    <div class="europa-container">
+      <form id="europaForm">
+        <!-- Name -->
+        <div class="europa-group">
+          <label for="name" class="europa-group__label">Name</label>
+          <input type="text" id="name" class="europa-input" placeholder="Your name" data-europa="name">
+          <div class="europa-group__message"></div>
+        </div>
+
+        <!-- Email -->
+        <div class="europa-group">
+          <label for="email" class="europa-group__label">Email</label>
+          <input type="text" id="email" class="europa-input" placeholder="Your email" data-europa="email">
+          <div class="europa-group__message"></div>
+        </div>
+
+        <!-- Password -->
+        <div class="europa-group">
+          <label for="password" class="europa-group__label">Password</label>
+          <input type="password" id="password" class="europa-input" placeholder="Your password" data-europa="password">
+          <div class="europa-group__message"></div>
+        </div>
+
+        <button type="submit" class="europa-button europa-button--primary">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
